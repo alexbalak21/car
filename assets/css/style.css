@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  border: 1px solid red;
+  text-align: center;
+  height: 200px;
+}
+
+footer {
+  border: 1px solid red;
+  text-align: center;
+  height: 150px;
+}
+main {
+  border: 1px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  min-height: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+main > * {
+  /* border: 1px solid blue; */
+  margin: 0 auto 0 auto;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav-right {
+  float: right;
+}
+
+.container1 {
+  min-width: 400px;
+  max-width: 25%;
+}
+
+.container2 {
+  width: 50%;
+}
+.container3 {
+  width: 600px;
+}
+.container4 {
+  width: 600px;
+}
+
+.login {
+  text-align: center;
+}
+
+#warning {
+  color: red;
+}
+
+.profileImg {
+  height: 100px;
+  width: 100px;
+}
+.profile {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.inputError {
+  border: 2px solid red;
+}
